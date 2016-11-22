@@ -37,6 +37,19 @@
             text-decoration: underline;
             font-style: italic;
         }
+        p#goto-profile a {
+            background: url(images/11-5_btn2.gif) no-repeat left top;
+            width: 140px;
+            height: 36px;
+            display: block;
+            color: #FFFFFF;
+            font-size: 15px;
+            line-height: 36px;
+            text-align: center;
+        }
+        p#goto-profile a:hover {
+            background: url(images/11-5_btn2.gif) no-repeat right top;
+        }
     </style>
 </head>
 <body>
@@ -59,8 +72,8 @@
     <p>
         <a href="copy.html">次のページへ</a>
     </p>
-    <p>
-        <a href="copy.html#profile"><img src="images/11-5_btn.gif" alt="作者の紹介"></a>
+    <p id="goto-profile">
+        <a href="copy.html#profile">作者の紹介</a>
     </p>
 
     <!--本文END-->
