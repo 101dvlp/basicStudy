@@ -6,7 +6,7 @@ body {
     color: #666;
     font-family: Arial, sans-serif;
     line-height: 18px;
-    background: #9F737C;
+    background: #EDE8EA url(../images/tile_1p_g.gif) no-repeat right top;
 }
 #container {
     width: 600px;
