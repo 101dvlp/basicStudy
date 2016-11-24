@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<button id="btn" type="button" onclick="myFunction()">The time is?</button>
+<button onclick="this.innerHTML=Date()">The time is?</button>
+
+<script>
+function myFunction(){
+    document.getElementById('btn').innerHTML = Date();
+}
+</script>
+</body>
+</html>
