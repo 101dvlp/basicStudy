@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<p>Division by zero also generates Infinity.</p>
+<button onclick="myFunc()">Try it</button>
+<p id="demo"></p>
+
+<script>
+function myFunc(){
+    var x = 2 / 0;
+    var y = -2 / 0;
+    document.getElementById('demo').innerHTML = x + "<br>" + y;
+}
+</script>
+</body>
+</html>

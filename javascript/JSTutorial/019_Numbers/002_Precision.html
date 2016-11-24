@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<p>Floating point arithmetic is not always 100% accurate.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+<p>To solve this problem above, it helps to mutiply and divide.</p>
+<button onclick="myFunc()">Try it</button>
+<p>var x = (0.2 * 10 + 0.1 * 10) / 10; // x will be 0.3</p>
+<p id="demo2"></p>
+
+
+<script>
+function myFunction(){
+    var x = 0.2 + 0.1;
+    document.getElementById('demo').innerHTML = "0.2 + 0.1 = " + x;
+}
+function myFunc(){
+    var x = (0.2 * 10 + 0.1 * 10) / 10;
+    document.getElementById('demo2').innerHTML = x;
+}
+</script>
+</body>
+</html>
