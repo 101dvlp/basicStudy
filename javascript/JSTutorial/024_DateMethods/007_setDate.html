@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<p>The setDate() method can be used to add days to a date.</p>
+<p id="demo"></p>
+<button onclick="myFunc()">display date</button>
+<p id="days"></p>
+
+<script>
+var d = new Date();
+d.setDate(d.getDate() + 50);
+document.getElementById('demo').innerHTML = d;
+
+function myFunc(){
+    var arr;
+    for( var i = 1 ; i < 51; i++ ){
+        d.setDate(d.getDate() + i);
+        arr += d + "<br>";
+    }
+    document.getElementById('days').innerHTML = arr;
+}
+
+</script>
+</body>
+</html>
